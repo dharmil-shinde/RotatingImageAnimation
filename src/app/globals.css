@@ -19,3 +19,16 @@
     align-items: center;
   }
   
+
+  :root{
+      --size:15vw;
+      --distance:7.5vw;
+      
+  }
+  
+  @media only screen and (max-width:600px){
+    :root{
+      --size:50vw;
+      --distance:25vw
+    }
+  }
